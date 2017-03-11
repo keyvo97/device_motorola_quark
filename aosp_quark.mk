@@ -6,6 +6,9 @@ $(call inherit-product, vendor/aosp/common.mk)
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+#Root
+DEFALT_ROOT_METHOD := magisk
+
 PRODUCT_RELEASE_NAME := Moto MAXX
 PRODUCT_NAME := aosp_quark
 
